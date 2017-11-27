@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-SmallestMultiple", "05-S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-LongestCollatzSequence", "14-LongestCollatzSequence\14-LongestCollatzSequence.csproj", "{9EB1F886-4D79-4F3A-B219-3BA0D4F5B552}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-LatticePaths", "15-LatticePaths\15-LatticePaths.csproj", "{AB608087-F33F-413C-8A72-5676C60F07F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9EB1F886-4D79-4F3A-B219-3BA0D4F5B552}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EB1F886-4D79-4F3A-B219-3BA0D4F5B552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EB1F886-4D79-4F3A-B219-3BA0D4F5B552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB608087-F33F-413C-8A72-5676C60F07F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB608087-F33F-413C-8A72-5676C60F07F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB608087-F33F-413C-8A72-5676C60F07F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB608087-F33F-413C-8A72-5676C60F07F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
