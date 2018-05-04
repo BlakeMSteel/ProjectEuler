@@ -6,7 +6,16 @@ namespace SumSquareDifference
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            long sumOfSquares = 0;
+            long squareOfSums = 0;
+            for (int i = 1; i <= 100; i++) {
+                sumOfSquares += Convert.ToInt64(Math.Pow(i, 2));
+                squareOfSums += i;
+            }
+
+            squareOfSums = Convert.ToInt64(Math.Pow(squareOfSums, 2));
+
+            Console.WriteLine(squareOfSums - sumOfSquares);
         }
     }
 }

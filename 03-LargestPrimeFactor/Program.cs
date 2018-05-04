@@ -11,7 +11,7 @@ namespace _03_LargestPrimeFactor
         static void Main(string[] args)
         {
             var isntPrime = false;
-            var numbers = new List<long>() { 600851475143 };
+            var numbers = new List<long>() { 20 };
             do
             {
                 isntPrime = false;
